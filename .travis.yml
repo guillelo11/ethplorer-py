@@ -1,9 +1,11 @@
 language: python
+
 python:
-  - "2.7"
   - "3.6"
-  - "pypy2.7"
   - "pypy3.6"
 
   install:
-  - python setup.py install
+  - pip install -q requests
+  
+  script: 
+  - python ./example/address_example.py
