@@ -4,8 +4,8 @@ python:
   - "3.6"
   - "pypy3.6"
 
-  install:
+install:
   - pip install -q requests
   
-  script: 
+script: 
   - python ./example/address_example.py
