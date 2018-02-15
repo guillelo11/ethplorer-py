@@ -8,4 +8,4 @@ install:
   - python setup.py install
   
 script: 
-  - python ./example/address_example.py
+  - python ./test/tests.py
